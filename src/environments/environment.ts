@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    weatherApi: 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/',
+    weatherApiKey: '6CJ9HEFKDG22E5UW9H78Q6678',
+
+    airQualityApi: 'https://api.syngeos.pl/api/public/data/',
 };
 
 /*

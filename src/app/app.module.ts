@@ -11,10 +11,12 @@ import { EventService } from './demo/service/event.service';
 import { IconService } from './demo/service/icon.service';
 import { NodeService } from './demo/service/node.service';
 import { PhotoService } from './demo/service/photo.service';
+import {HOME} from "@angular/cdk/keycodes";
+import {HomePageComponent} from "./features/pages/home-page/home-page.component";
 
 @NgModule({
     declarations: [
-        AppComponent, NotfoundComponent
+        AppComponent, NotfoundComponent, HomePageComponent
     ],
     imports: [
         AppRoutingModule,
